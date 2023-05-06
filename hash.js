@@ -1,7 +1,7 @@
 const Web3 = require('web3');
 const web3 = new Web3('http://localhost:7545');
 
-const message = "Some message to sign";
+const message = "<message>";
 const messageHash = web3.utils.sha3(message);
 
 const privateKey = "<private key>";
